@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('/fonts/icomoon.eot?7kkyc2');
+    src: url('/fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('/fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('/fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url("/image/timg.jpg") no-repeat;
+    background-size: 100%;
+}
+
+a:focus {
+    outline-style: none;
+}
+
+.login_back {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+.login_title {
+    width: 100%;
+    height: 120px;
+}
+
+.title_name {
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-bottom: 1.8px solid #666;
+}
+
+.login_cz {
+    width: 320px;
+    height: 62px;
+    margin: 0 auto;
+}
+
+.login_cz a {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #666;
+    text-align: center;
+    line-height: 80px;
+}
+
+.login_cz a:first-child {
+    float: left;
+    border-bottom: 2px solid #999;
+}
+
+.login_cz a:last-child {
+    float: right;
+}
+
+.fro_log {
+    display: block;
+    width: 500px;
+    height: 350px;
+    position: relative;
+}
+
+.log_name, .log_pass {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+.fro_log > div:first-child {
+    margin-top: 30px;
+}
+
+.log_name > span, .log_pass > span {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.log_name > input, .log_pass > input {
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.log_forget {
+    width: 350px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+.log_forget > input {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: 22px;
+    margin-right: 4px;
+    margin-left: 25px;
+    float: left;
+}
+
+.log_forget > a {
+    display: inline-block;
+    width: 80px;
+    height: 60px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+    text-align: right;
+    float: right;
+}
+
+.log_forget > a:hover {
+    color: #f0f;
+}
+
+.log_button {
+    width: 350px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.log_button > input {
+    width: 335px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #189DD8;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 15px;
+    margin-left: 25px;
+}
+
+.register_fro {
+    display: none;
+}
+
+.fro_reg {
+    display: block;
+    width: 500px;
+    height: 350px;
+    position: relative;
+}
+
+.reg_name, .reg_id, .reg_pass, .reg_repass {
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+}
+
+.reg_name {
+    margin-top: 20px;
+}
+
+.fro_reg span {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 25px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.fro_reg input {
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.reg_sub {
+    width: 320px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 110px;
+}
+
+.reg_sub input {
+    width: 335px;
+    height: 50px;
+    background-color: #189DD8;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 10px;
+}
